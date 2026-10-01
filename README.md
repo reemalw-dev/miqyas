@@ -14,7 +14,7 @@ Miqyas evaluates submitted source-code repositories across four weighted dimensi
 | **Cybersecurity** | 30% |
 | **Software Performance** | 25% |
 | **Clean Code & Architecture** | 25% |
-| **DGA / NDMO Compliance** | 20% |
+| **DGA/NDMO Compliance** | 20% |
 
 The system identifies potential issues, calculates pillar scores, applies mandatory security and compliance override rules, and returns structured evaluation results with actionable recommendations.
 
@@ -32,6 +32,12 @@ The system identifies potential issues, calculates pillar scores, applies mandat
 
 ---
 
+## DGA/NDMO Compliance
+
+Miqyas evaluates selected Saudi digital government and data-governance requirements. Selected DGA and NDMO requirements are translated into machine-evaluable criteria and embedded in the system prompt. The system uses these criteria to identify compliance-related findings and generate recommendations. The implementation operationalizes selected regulatory requirements rather than reproducing the standards verbatim.
+
+* Selected NDMO requirements are operationalized into machine-evaluable criteria within the system prompt.
+---
 ## Architecture
 
 ![Miqyas AI Architecture](docs/images/architecture.png)
@@ -119,7 +125,7 @@ npm run dev
 
 ## Academic Project
 
-Miqyas AI was developed as a Computer Science graduation project at **Umm Al-Qura University**[cite: 1].
+Miqyas AI was developed as a Computer Science graduation project at **Umm Al-Qura University**.
 
 * **Author:** Reem Alwafi
 * **Department:** Computer Science
